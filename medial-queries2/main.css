@@ -1,3 +1,104 @@
 body {
   background: papayawhip;
 }
+
+* {
+  border: 2px solid rgb(65, 156, 184);
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  border-color: rgb(100, 85, 189);
+  border-style: solid;
+  background-color: rgb(136, 208, 179);
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+.fuckingwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 3;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70vh;
+  background-color:rgb(33, 134, 156);
+  border-style: solid;
+  border-color: black;
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+aside, .fuckingwrapper  {
+  flex-grow: 1;
+  margin: .5em;
+  max-height: 10vh;
+  background-color:rgb(120, 199, 216);
+}
+
+aside  {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  min-height: 20vh;
+  background-color:rgb(120, 199, 216);
+}
+
+aside > div {
+  flex-grow: 10;
+  margin: .5em;
+  background-color:rgb(120, 199, 216);
+}
+
+main {
+  width: 90%;
+  flex-grow: 3;
+  margin: .5em;
+}
+
+footer {
+  background-color:rgb(120, 199, 216);
+  font-size: 1.5em;
+  flex-grow: 1;
+  margin: .5em;
+  max-height: 10vh;
+  border-style: solid;
+  border-color: black;
+}
+
+header {
+  font-size: 1.5em;
+  background-color:rgb(120, 199, 216);
+  flex-grow: 1;
+  margin: .5em;
+  max-height: 10vh;
+  border-style: solid;
+  border-color: black;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header {
+    width: 100%;
+    max-height: 10vh;
+  }
+  .fuckingwrapper {
+    justify-content: stretch;
+    flex-basis: 70%;
+    min-height:  80vh;
+  }
+  footer {
+    margin: .3em;
+    flex-grow: 3;
+    min-height:  80vh;
+  }
+}

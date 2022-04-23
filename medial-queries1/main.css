@@ -9,6 +9,7 @@ body .a {
   min-width: 99%;
   max-width: 100%;
   font-size: 6em;
+  justify-content: center;
   border-style: solid;
   border-color: black;
   background-color: rgb(120, 199, 216);
@@ -21,6 +22,7 @@ body .b {
   min-width: 70%;
   max-width: 100%;
   font-size: 6em;
+  justify-content: center;
   border-color: black;
   background-color:rgb(120, 199, 216);
   border-style: solid;
@@ -33,6 +35,7 @@ body .c {
   min-width: 20%;
   max-width: 100%;
   font-size: 6em;
+  justify-content: center;
   background-color:rgb(120, 199, 216);
   border-style: solid;
   border-color: black;
