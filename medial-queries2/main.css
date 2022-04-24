@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
 
-.fuckingwrapper {
+.thatthing {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 
-aside, .fuckingwrapper  {
+aside, .thatthing  {
   flex-grow: 1;
   margin: .5em;
   max-height: 10vh;
@@ -91,7 +91,7 @@ header {
     width: 100%;
     max-height: 10vh;
   }
-  .fuckingwrapper {
+  .thatthing {
     justify-content: stretch;
     flex-basis: 70%;
     min-height:  80vh;
