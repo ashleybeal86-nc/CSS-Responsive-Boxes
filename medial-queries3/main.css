@@ -47,7 +47,6 @@ aside > div {
 main {
   flex-grow: 4;
   background-color: rgb(234, 169, 50)
-  background-color: rgb(234, 169, 50)
 }
 
 @media (min-width: 600px) {
